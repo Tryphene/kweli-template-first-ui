@@ -1,0 +1,48 @@
+
+/** input company filter **/
+
+.search-company-filtre {
+    margin-right: 10px;
+} 
+
+.search-company-filtre input {
+    outline: none;
+    border: 1px solid #f2f4f7;;
+    padding: 4px 10px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+/** Slider price **/
+
+.modal-slider input[type="number"] {
+    border: 1px solid #e4e4e4;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 110px;
+}
+
+.slider {
+    height: 10px;
+    width: 100%;
+    background-color: #CBD0DD;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.slider .thumb {
+    top: -2px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #3874FF;
+    cursor: grab;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.slider .thumb.active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
